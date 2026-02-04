@@ -1,0 +1,17 @@
+import Header from "@/components/layout/Header";
+
+const HomePage = () => {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <Header />
+      <main className="flex flex-col items-center justify-center py-20 px-4">
+        <h1 className="text-4xl font-bold text-gray-900 mb-4">Home Page</h1>
+        <p className="text-lg text-gray-600 text-center max-w-2xl">
+          Welcome to the Home Page of our Next.js Routing project.
+        </p>
+      </main>
+    </div>
+  );
+};
+
+export default HomePage;
